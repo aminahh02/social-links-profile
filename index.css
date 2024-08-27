@@ -18,7 +18,9 @@ body {
 }
 img {
     border-radius: 50%;
-    width: 8vw;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
 }
 .london {
     display: flex;
@@ -55,6 +57,11 @@ button {
   cursor: pointer;
   margin-bottom: 10px;
   transition: color 0.3s ease;
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
 }
 button:hover {
   background-color: hsl(75, 94%, 57%);
